@@ -12,7 +12,7 @@
             { "name": "邮箱", "value": "itagn@foxmail.com", "icon": "email" },
             { "name": "Github", "value": "itagn", "url": "https://github.com/itagn", "icon": "github" },
             { "name": "npm社区", "value": "itagn", "url": "https://www.npmjs.com/~itagn", "icon": "npm" },
-            { "name": "技术博客", "value": "itagn", "url": "http://itagn.xyz", "icon": "company" }
+            { "name": "技术博客", "value": "itagn", "url": "https://itagn.github.io/blog", "icon": "company" }
           ]
         },
         {
