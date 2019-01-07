@@ -26,12 +26,12 @@
           "moduleName": "技能树",
           "moduleType": 2,
           "data": [
-            "熟练 ES5 + ES6",
-            "熟练 HTML / CSS",
-            "熟练 Vue2 + Vue-router + Vuex",
-            "熟悉 Node.js",
-            "熟悉 Webpack",
-            "熟悉 Scss / Less"
+            "熟悉 ES5 + ES6",
+            "熟悉 HTML / CSS",
+            "熟悉 Vue2 + Vue-router + Vuex",
+            "了解 Node.js",
+            "了解 Webpack",
+            "了解 Scss / Less"
           ]
         },
         {
@@ -53,7 +53,7 @@
             { "name": "出生年月", "value": "1994.12", "icon": "time" },
             { "name": "性别", "value": "男", "icon": "sex" },
             { "name": "地址", "value": "四川成都", "icon": "address" },
-            { "name": "工作年限", "value": "1年", "icon": "time" }
+            { "name": "工作年限", "value": "1.5年", "icon": "time" }
           ]
         },
         {
@@ -96,6 +96,44 @@
           "icon": "project",
           "data": [
             {
+              "name": "OnetNET和物-SAAS",
+              "url": "https://open.iot.10086.cn/hewu/website/",
+              "startTime": "2018/4",
+              "endTime": "至今",
+              "miniModule": [
+                {
+                  "miniName": "项目介绍",
+                  "data": [
+                    "和物是部门内第一个端到端的解决方案。打通底层芯片模组、中间层OnetNET平台以及上层SaaS应用。为传统生产厂商及内部产品带来便利。",
+                    "目前和物SaaS已经在大陆节点和香港节点成功上线，支持多种智能设备在和物APP/IOS上控制。"
+                  ]
+                },
+                {
+                  "miniName": "技术栈",
+                  "data": [
+                    "Vue2全家桶 + Element-ui"
+                  ]
+                },
+                {
+                  "miniName": "项目职责",
+                  "data": [
+                    "1.开发流程批量生产环节，用户数据反馈中心等多个模块的前端开发，高度还原UI样式，数据状态和数据交互由vuex进行模块化处理。",
+                    "2.负责整个开发文档模块，整个二三级导航及文档详细内容由数据渲染，提供了用户评分意见功能，文档搜索查询功能，文档下载功能。",
+                    "3.长期开发新需求、维护整个和物项目、解决发现的bug和细节修改提高用户体验。",
+                    "4.带领新员工快速熟悉并参与到和物项目开发中。"
+                  ]
+                },
+                {
+                  "miniName": "项目成果",
+                  "data": [
+                    "1.规定时间内完成了工作内容，还原UI设计图，与后端和测试联调顺利，熟悉了gitlab的merge request进行团队合作的流程。",
+                    "2.熟悉了vuex模块化开发的流程，在网络请求方面注入access-token验证和csrf验证。",
+                    "3.重写了上传文件部分代码，PS软件对psd切图后使用AI软件处理成svg图形，最后转换为icon-font。"
+                  ]
+                }
+              ]
+            },
+            {
               "name": "钱江摩托后台管理系统",
               "startTime": "2017/12",
               "endTime": "2018/2",
@@ -109,7 +147,7 @@
                 {
                   "miniName": "技术栈",
                   "data": [
-                    "Koa2 + Nunjucks + MongoDB + Fis3"
+                    "Koa2 + Nunjucks + jquery + MongoDB"
                   ]
                 },
                 {
@@ -125,7 +163,7 @@
                   "data": [
                     "1.按期完成了原型规划部分，还原UI的psd并在解决了测试发现的bug。",
                     "2.提取页面公共部分模板，优化代码、减少代码量并易于维护。",
-                    "3.熟悉了nunjucks渲染项目，熟悉了Koa2通过router接口到controller处理数据再到model处理MongoDB的流程。"
+                    "3.熟悉了Nunjucks渲染项目，熟悉了Koa2通过router接口到controller处理数据再到model处理MongoDB的流程。"
                   ]
                 }
               ]
@@ -164,43 +202,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "OneNet和物-SAAS",
-              "url": "https://open.iot.10086.cn/hewu#/",
-              "startTime": "2018/4",
-              "endTime": "至今",
-              "miniModule": [
-                {
-                  "miniName": "项目介绍",
-                  "data": [
-                    "和物基于部门核心平台OneNet开发，涉及到APP、IOS、嵌入式、SAAS网站、管理员系统、SAAS后台，负责的项目为其中的SAAS网站。专注于智能云与SaaS应用服务，提供物联网软硬件一体化的解决方案，帮助传统硬件厂商产品升级，快速实现硬件智能化与服务化，同时提供全方位的运营支撑与服务。",
-                    "为开发者提供产品开发应用流程，真实设备与虚拟设备的联网调试，于2018年6月下旬上线，目前项目仍在迭代中。"
-                  ]
-                },
-                {
-                  "miniName": "技术栈",
-                  "data": [
-                    "Vue2全家桶 + Element-ui"
-                  ]
-                },
-                {
-                  "miniName": "项目职责",
-                  "data": [
-                    "1.应用开发流程的批量生产环节，开发者开发产品的审核流程，状态和交互由vuex模块化处理。",
-                    "2.用户数据反馈中心，根据问题类型等查询用户反馈，以及相关设备信息，还原UI样式。",
-                    "3.整个开发文档模块，上线版本为静态文档，目前正在重构为动态文档中，整个二三级导航及文档详细内容由数据渲染，提供了用户评分意见功能，文档搜索查询功能，文档下载功能。"
-                  ]
-                },
-                {
-                  "miniName": "项目成果",
-                  "data": [
-                    "1.规定时间内完成了工作内容，还原UI设计图，与后端和测试联调顺利，熟悉了gitlab的merge request进行团队合作的流程。",
-                    "2.熟悉了vuex模块化开发的流程，在网络请求方面注入access-token验证和csrf验证。",
-                    "3.重写了上传文件部分代码，PS软件对psd切图后使用AI软件处理成svg图形，最后转换为iconfont。"
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -227,12 +228,26 @@
               "name": "vue-iresume",
               "url": "https://github.com/itagn/vue-iresume",
               "startTime": "2018/5",
-              "endTime": "至今",
+              "endTime": "2018/6",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
                   "data": [
-                    "开源的一个vue组件，在线简历通过该组件编译而成。经过多个版本的迭代样式逐渐美化，也丰富了很多功能，如任意拖拽、ctrl+鼠标滚动放大缩小、多个简历保持不同层级关系等。目前只有中文文档，之后版本会补充和完善英文文档。"
+                    "开源的一个vue组件，在线简历通过该组件编译而成。经过多个版本的迭代样式逐渐美化，也丰富了很多功能，如任意拖拽、ctrl+鼠标滚动放大缩小、多个简历保持不同层级关系等。"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "像滤镜一样改变字体颜色 [掘金]",
+              "url": "https://juejin.im/post/5ba27b25e51d450e4b1bf4ba",
+              "startTime": "2018/9",
+              "endTime": "2018/9",
+              "miniModule": [
+                {
+                  "miniName": "项目介绍",
+                  "data": [
+                    "通过纯CSS模拟滤镜改变字体特效的技术文章，文中介绍了详细的分析步骤并通过JavaScript优化了代码，保持了DRY原则。"
                   ]
                 }
               ]
