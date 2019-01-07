@@ -53,7 +53,7 @@
             { "name": "出生年月", "value": "1994.12", "icon": "time" },
             { "name": "性别", "value": "男", "icon": "sex" },
             { "name": "地址", "value": "四川成都", "icon": "address" },
-            { "name": "工作年限", "value": "1.5年", "icon": "time" }
+            { "name": "工作年限", "value": "2年", "icon": "time" }
           ]
         },
         {
