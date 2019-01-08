@@ -3,48 +3,14 @@
     "user": {
       "name": "蔡东",
       "avatars": "https://s.gravatar.com/avatar/99d63f663ffc8ae252af7ecbcd58ec33?size=496&default=retro",
-      "leftModules": [
-        {
-          "moduleName": "联系方式",
-          "moduleType": 0,
-          "data": [
-            { "name": "电话", "value": "15520489925", "icon": "phone" },
-            { "name": "邮箱", "value": "itagn@foxmail.com", "icon": "email" },
-            { "name": "Github", "value": "itagn", "url": "https://github.com/itagn", "icon": "github" },
-            { "name": "npm社区", "value": "itagn", "url": "https://www.npmjs.com/~itagn", "icon": "npm" },
-            { "name": "技术博客", "value": "itagn", "url": "https://itagn.github.io/blog", "icon": "company" }
-          ]
-        },
+      "rightModules": [
         {
           "moduleName": "应聘岗位",
-          "moduleType": 1,
+          "moduleType": 3,
           "data": [
             "前端开发工程师"
           ]
         },
-        {
-          "moduleName": "技能树",
-          "moduleType": 1,
-          "data": [
-            "熟悉 ES5 + ES6",
-            "熟悉 HTML / CSS",
-            "熟悉 Vue2 + Vue-router + Vuex",
-            "了解 Node.js",
-            "了解 Webpack",
-            "了解 Scss / Less"
-          ]
-        },
-        {
-          "moduleName": "个人评价",
-          "moduleType": 2,
-          "data": [
-            "热爱前端开发，自学能力强，重视JavaScript基础，有阅读前端相关书籍的习惯，不定期会根据看到的书籍、文章、自己遇到的问题写技术博客",
-            "很好的沟通能力，乐观向上的心态，团队合作能力强，重视自己的开发效率和代码质量，工作认真负责",
-            "希望为开源社区做贡献，有个人想法的时候会在npm社区，发布并持续维护一些看起来不是很实用的前端组件和Node.js应用"
-          ]
-        }
-      ],
-      "rightModules": [
         {
           "moduleName": "基础信息",
           "moduleType": 0,
@@ -54,6 +20,16 @@
             { "name": "性别", "value": "男", "icon": "sex" },
             { "name": "地址", "value": "四川成都", "icon": "address" },
             { "name": "工作年限", "value": "2年", "icon": "time" }
+          ]
+        },
+        {
+          "moduleName": "联系方式",
+          "moduleType": 0,
+          "data": [
+            { "name": "电话", "value": "15520489925", "icon": "phone" },
+            { "name": "邮箱", "value": "itagn@foxmail.com", "icon": "email" },
+            { "name": "Github", "value": "itagn", "url": "https://github.com/itagn", "icon": "github" },
+            { "name": "技术博客", "value": "itagn", "url": "https://itagn.github.io/blog", "icon": "company" }
           ]
         },
         {
@@ -266,6 +242,27 @@
                 }
               ]
             }
+          ]
+        },
+        {
+          "moduleName": "技能树",
+          "moduleType": 3,
+          "data": [
+            "熟悉 ES5 + ES6",
+            "熟悉 HTML / CSS",
+            "熟悉 Vue2 + Vue-router + Vuex",
+            "了解 Node.js",
+            "了解 Webpack",
+            "了解 Scss / Less"
+          ]
+        },
+        {
+          "moduleName": "个人评价",
+          "moduleType": 4,
+          "data": [
+            "热爱前端开发，自学能力强，重视JavaScript基础，有阅读前端相关书籍的习惯，不定期会根据看到的书籍、文章、自己遇到的问题写技术博客",
+            "很好的沟通能力，乐观向上的心态，团队合作能力强，重视自己的开发效率和代码质量，工作认真负责",
+            "希望为开源社区做贡献，有个人想法的时候会在npm社区，发布并持续维护一些看起来不是很实用的前端组件和Node.js应用"
           ]
         }
       ]
