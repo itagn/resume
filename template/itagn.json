@@ -12,7 +12,8 @@
             { "name": "邮箱", "value": "itagn@foxmail.com", "icon": "email" },
             { "name": "Github", "value": "itagn", "url": "https://github.com/itagn", "icon": "github" },
             { "name": "npm社区", "value": "itagn", "url": "https://www.npmjs.com/~itagn", "icon": "npm" },
-            { "name": "技术博客", "value": "itagn", "url": "https://itagn.github.io/blog", "icon": "company" }
+            { "name": "技术博客", "value": "itagn", "url": "https://itagn.github.io/blog", "icon": "company" },
+            { "name": "掘金", "value": "东东么么哒", "url": "https://juejin.im/user/5a0bc4e36fb9a0451d4100e5/posts", "icon": "education" }
           ]
         },
         {
@@ -76,8 +77,8 @@
             {
               "name": "中移物联网有限公司",
               "url": "http://iot.10086.cn/introduction/index/name/introduction",
-              "startTime": "2017/7",
-              "endTime": "至今",
+              "startTime": "2017.7.14",
+              "endTime": "2019.4.3",
               "miniModule": [
                 {
                   "miniName": "工作内容",
@@ -86,6 +87,20 @@
                     "使用Koa2进行后端接口开发",
                     "与后端，测试，UI，产品经理联调修改bug",
                     "旧项目的维护、参与到新项目的开发"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "招银网络科技",
+              "url": "http://cmbnt.cmbchina.com",
+              "startTime": "2019.4.9",
+              "endTime": "至今",
+              "miniModule": [
+                {
+                  "miniName": "工作内容",
+                  "data": [
+                    "前端开发"
                   ]
                 }
               ]
@@ -98,10 +113,39 @@
           "icon": "project",
           "data": [
             {
+              "name": "Edge用户管理",
+              "startTime": "2019.2",
+              "endTime": "2019.3",
+              "miniModule": [
+                {
+                  "miniName": "项目介绍",
+                  "data": [
+                    "单人开发的edge项目中超级管理员提供人员管理和权限管理的独立系统，原型可见阿里云企业管理"
+                  ]
+                },
+                {
+                  "miniName": "技术栈",
+                  "data": [
+                    "Vue2全家桶 + Element-ui"
+                  ]
+                },
+                {
+                  "miniName": "项目职责",
+                  "data": [
+                    "1.整个项目的项目架构搭建、代码抽取组件、代码优化、公共代码管理、错误信息捕获、项目维护、新需求开发、项目文档描述等。",
+                    "2.keycloak鉴权登陆，keycloak配置和服务器地址抽离出来进行可配置，一套代码多环境下部署新配置。",
+                    "3.超级管理员未退出状态下切换其他身份并同步页面显示，多身份页面任意切换（不同身份的可查看的页面和接口不同）。",
+                    "4.所有接口访问token验证，超过15分钟失效，通过iframe隐藏登陆，自动在过期前30秒时请求新的有效token保存在localStorage提供给页面。",
+                    "5.三周内完成十多个页面开发，三十多个接口联调，在测试环境和预发布环境上线并顺利通过测试，提供给用户第一版代码。"
+                  ]
+                }
+              ]
+            },
+            {
               "name": "OnetNET和物-SAAS",
               "url": "https://open.iot.10086.cn/hewu/website/",
-              "startTime": "2018/4",
-              "endTime": "至今",
+              "startTime": "2018.4",
+              "endTime": "2019.2",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
@@ -137,8 +181,8 @@
             },
             {
               "name": "钱江摩托后台管理系统",
-              "startTime": "2017/12",
-              "endTime": "2018/2",
+              "startTime": "2017.12",
+              "endTime": "2018.2",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
@@ -172,8 +216,8 @@
             },
             {
               "name": "全链路监控",
-              "startTime": "2018/2",
-              "endTime": "2018/4",
+              "startTime": "2018.2",
+              "endTime": "2018.4",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
@@ -215,8 +259,8 @@
             {
               "name": "东东么么哒 - 个人论坛",
               "url": "https://github.com/itagn/dongdongmemeda",
-              "startTime": "2017/9",
-              "endTime": "2017/11",
+              "startTime": "2017.9",
+              "endTime": "2017.11",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
@@ -229,8 +273,8 @@
             {
               "name": "vue-iresume",
               "url": "https://github.com/itagn/vue-iresume",
-              "startTime": "2018/5",
-              "endTime": "2018/6",
+              "startTime": "2018.5",
+              "endTime": "2018.6",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
@@ -241,24 +285,10 @@
               ]
             },
             {
-              "name": "像滤镜一样改变字体颜色 [掘金]",
-              "url": "https://juejin.im/post/5ba27b25e51d450e4b1bf4ba",
-              "startTime": "2018/9",
-              "endTime": "2018/9",
-              "miniModule": [
-                {
-                  "miniName": "项目介绍",
-                  "data": [
-                    "通过纯CSS模拟滤镜改变字体特效的技术文章，文中介绍了详细的分析步骤并通过JavaScript优化了代码，保持了DRY原则。"
-                  ]
-                }
-              ]
-            },
-            {
               "name": "基于DES加密的即时通信聊天系统",
               "url": "https://github.com/itagn/InstantMessageSystem",
-              "startTime": "2017/1",
-              "endTime": "2017/5",
+              "startTime": "2017.1",
+              "endTime": "2017.5",
               "miniModule": [
                 {
                   "miniName": "项目介绍",
